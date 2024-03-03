@@ -7,4 +7,8 @@ def fib(n):   # return Fibonacci series up to n
     return result
 
 def fib_nth(n):
-    return fib(n)[-1]
+    if n <= 1:
+        return n
+    else:
+        return fib_nth(n - 1) + fib_nth(n - 2)
+
