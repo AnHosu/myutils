@@ -2,7 +2,6 @@ exceptiongroup==1.2.0
 importlib-metadata==6.7.0
 iniconfig==2.0.0
 packaging==23.2
-pkg_resources==0.0.0
 pluggy==1.2.0
 pytest==7.4.4
 tomli==2.0.1
