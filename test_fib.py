@@ -5,4 +5,4 @@ def test_fib():
     assert result == [0, 1, 1, 2, 3]
 
 def test_fib_nth():
-    assert fib_nth(6) == 6
+    assert fib_nth(6) == 5
